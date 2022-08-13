@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- ctrl + slash to create a comment -->
+        <!-- meta charset specifies the character encoding for the HTML document -->
+        <meta charset="UTF-8">
+        <!-- responsive / it will bw smaller on a  mobile phone than on a computer screen -->
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title> Faith Kaye Superior | Web Developer Portfolio </title>
+        <!-- Google Fonts \ Monserrat Semi-bold & Roboto Regular -->
+
+        <!-- External CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/bootstrap.css" />
+
+    </head>
+    <body>
+        <!-- navbar starts -->
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top">
+            <div class="container-fluid">
+
+              <button 
+              class="navbar-toggler ms-auto" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#portfolio-nav" 
+              aria-controls="navbarNav" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="portfolio-nav">
+                <ul class="navbar-nav mx-auto">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#landing">Home</a>    
+                  </li>
+                    <!-- href with #landing serves as a navigation -->
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#gallery">Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar ends -->
+
+        <!-- h1 tag creates a heading text element that's larger -->
+        <!-- <h2>Hello World!</h2>
+        <h3>Hello World!</h3>
+        <h4>Hello World!</h4>
+        <h5>Hello World!</h5>
+        <h6>Hello World!</h6> -->
+        <!-- ctrl + shift + D = copy paste -->
+        <!-- div defines a division or a section in HTML -->
+        <div class="container-fluid">
+            <!-- class is an attribute to name our div -->
+            <!-- fluid expands the container fully -->
+            
+            <!-- landing page section start -->
+            <section id="landing" class="text-center mt-3">
+                <h1>Full Stack Web Developer</h1>
+                <p> Faith Kaye A. Superior</p>
+                <img src="images/me.jpg" alt="">
+            </section>
+            <!-- landing page section end -->
+
+            <!-- gallery page section end -->
+            <section id="gallery" class="text-center bg-dark text-white mb-3">
+            <!-- 
+              Bootstrap colors
+              primary, secondary, info, danger, success, warning, light/white, transparent
+            -->
+
+                <div class="tools">
+                    <h2> Languages I Speak</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <h2>Tools I Use</h2>
+                    <ul>
+                        <li>Git Bash/Terminal</li>
+                        <li>VSC</li>
+                        <li>Gitlab</li>
+                        <li>Google Chrome</li>
+                    </ul>
+                    
+                </div>
+            </section>
+            <!-- gallery page section end -->
+        </div>
+
+        <!-- Javascript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
